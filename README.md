@@ -21,7 +21,6 @@ O projeto consome dados de um arquivo JSON externo e implementa uma funcionalida
 
 ## 🌐 Demonstração (Live Preview)
 Acesse o projeto online aqui: 
-[COLE AQUI O SEU LINK DO GITHUB PAGES]
-
+https://andrea-leite.github.io/guia-acessibilidade/
 ---
 Desenvolvido para participar da premiação dos melhores projetos da Imersão Dev 2025.
