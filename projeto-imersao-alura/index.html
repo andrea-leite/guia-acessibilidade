@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Rápido de Acessibilidade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="40" height="40"
+        class="icone-a11y">
+        <path d="M12 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm9 7h-6v13h-2v-6h-2v6H9V9H3V7h18v2z" />
+      </svg>
+      <h1>Guia Rápido de Acessibilidade</h1>
+    </div>
+    <p>Dicas essenciais para uma web mais inclusiva.</p>
+  </header>
+
+  <main>
+
+    <section class="sobre-container">
+      <h2>Por uma Web para Todos</h2>
+      <p class="descricao-projeto">
+        Acessibilidade não é um recurso extra, é um direito. Este guia foi criado para ajudar pessoas desenvolvedoras a
+        consultar rapidamente boas práticas e tornar a internet mais inclusiva.
+      </p>
+      <p class="instrucao-uso">
+        👇 <strong>Como usar:</strong> Digite um tema abaixo (ex: "fonte", "cor", "teclado") para filtrar as dicas
+        instantaneamente.
+      </p>
+    </section>
+
+    <section class="area-pesquisa">
+      <input type="text" id="campo-pesquisa" placeholder="Digite o tema (ex: visual, cor)">
+      <button onclick="pesquisar()">Buscar</button>
+      <button onclick="limparPesquisa()" class="btn-limpar">Limpar</button>
+    </section>
+
+    <div id="lista-dicas" class="container">
+    </div>
+
+    <div id="lista-dicas" class="container">
+    </div>
+  </main>
+
+  <footer>
+    <p>Projeto para a Imersão Dev com Google e Alura.</p>
+    <p>Desenvolvido por Andréa Leite</p>
+
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
