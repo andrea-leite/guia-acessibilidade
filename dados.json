@@ -1,0 +1,92 @@
+[
+  {
+    "titulo": "Fontes Legíveis",
+    "descricao": "Dê preferência a fontes sem serifa (sans-serif) como Arial, Roboto ou Verdana, pois são mais fáceis de ler em telas digitais.",
+    "categoria": "Visual"
+  },
+  {
+    "titulo": "Tamanho de Fonte Relativo",
+    "descricao": "Use unidades relativas (rem, em, %) em vez de pixels fixos (px) para o tamanho da fonte, permitindo que o usuário ajuste o zoom.",
+    "categoria": "Visual"
+  },
+  {
+    "titulo": "Espaçamento de Linha",
+    "descricao": "Use um espaçamento entre linhas (line-height) de pelo menos 1.5 para melhorar a legibilidade do bloco de texto.",
+    "categoria": "Leitura"
+  },
+  {
+    "titulo": "Contraste de Cores",
+    "descricao": "Garanta uma razão de contraste de pelo menos 4.5:1 entre o texto e o fundo para facilitar a leitura.",
+    "categoria": "Visual"
+  },
+  {
+    "titulo": "Texto Alternativo (Alt)",
+    "descricao": "Todas as imagens informativas devem ter descrições breves e precisas no atributo alt.",
+    "categoria": "Leitura"
+  },
+  {
+    "titulo": "Navegação por Teclado",
+    "descricao": "Certifique-se de que todos os elementos interativos (links, botões, inputs) sejam acessíveis via tecla Tab.",
+    "categoria": "Motor"
+  },
+  {
+    "titulo": "Hierarquia de Títulos",
+    "descricao": "Use h1 a h6 sequencialmente. Não pule níveis (ex: de h1 para h3) para manter a estrutura lógica.",
+    "categoria": "Estrutura"
+  },
+  {
+    "titulo": "Legendas em Vídeos",
+    "descricao": "Forneça legendas sincronizadas e transcrições para todo conteúdo de áudio e vídeo.",
+    "categoria": "Auditivo"
+  },
+  {
+    "titulo": "Foco Visível",
+    "descricao": "Nunca remova o outline dos elementos focáveis via CSS (outline: none) sem fornecer uma alternativa visível.",
+    "categoria": "Motor"
+  },
+  {
+    "titulo": "Links Descritivos",
+    "descricao": "Evite textos como 'Clique aqui'. O link deve descrever o destino ou a ação (ex: 'Baixar edital em PDF').",
+    "categoria": "Semântica"
+  },
+  {
+    "titulo": "Rótulos em Formulários",
+    "descricao": "Use a tag &lt;label&gt; associada corretamente aos inputs. Placeholders não substituem labels.",
+    "categoria": "Estrutura"
+  },
+  {
+    "titulo": "Zoom de Texto",
+    "descricao": "O site deve suportar zoom de até 200% sem que o texto se sobreponha ou quebre o layout.",
+    "categoria": "Visual"
+  },
+  {
+    "titulo": "Semântica HTML5",
+    "descricao": "Use tags semânticas como &lt;nav&gt;, &lt;main&gt;, &lt;article&gt; e &lt;footer&gt; em vez de apenas &lt;div&gt; para facilitar a navegação.",
+    "categoria": "Estrutura"
+  },
+  {
+    "titulo": "Evitar Auto-play",
+    "descricao": "Não inicie áudios ou vídeos automaticamente, pois isso pode interferir em leitores de tela e assustar usuários.",
+    "categoria": "Auditivo"
+  },
+  {
+    "titulo": "Animações Controladas",
+    "descricao": "Respeite a preferência do usuário por redução de movimento (media query: prefers-reduced-motion).",
+    "categoria": "Cognitivo"
+  },
+  {
+    "titulo": "Cor como Informação",
+    "descricao": "Não use apenas cor para transmitir informação (ex: 'clique no botão vermelho'). Use texto ou ícones junto.",
+    "categoria": "Visual"
+  },
+  {
+    "titulo": "Tamanho do Toque",
+    "descricao": "Botões e links em dispositivos móveis devem ter uma área de toque de pelo menos 44x44 pixels.",
+    "categoria": "Motor"
+  },
+  {
+    "titulo": "Linguagem Simples",
+    "descricao": "Escreva frases curtas e evite jargões complexos para facilitar a compreensão por todos.",
+    "categoria": "Cognitivo"
+  }
+]
